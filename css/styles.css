@@ -1,0 +1,340 @@
+/* @charset "utf-8"; */
+body {
+    margin: 0;
+    text-align: center;
+    color: #40414e;
+    scroll-behavior: smooth;
+    font-family: "SyneMono";
+}
+nav {
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 02);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+nav  ul  li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+nav ul li a:hover {
+    background-color: #2adabc;
+    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+    transition: all ease 0.2s;
+}
+ul {
+    list-style: none;
+    margin-left: auto;
+    display: flex;
+}
+h1 {
+    color: #66bfbf;
+    margin: 30px auto 0 auto;
+    font-size: 5rem;
+}
+h2 {
+    color: #66bfbf;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #11999e;
+}
+span {
+    text-decoration: underline;
+}
+hr {
+    border: dotted #EAf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.logo img {
+    height: 50px;
+}
+.nav-anchor:hover {
+    color: #ffffff;
+}
+.top-container {
+    background-color: #E4F9F9;
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 100px;
+}
+.top-cloud {
+    /* position: absolute; */
+    width: 200px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+}
+.bottom-cloud {
+    position: absolute;
+    width: 200px;
+    margin-top: 5px;
+    margin-right: 300rem;
+    margin-bottom: 300px;
+}
+.mountain {
+    width: 800px;
+    margin-top: 0;
+    padding-top: 70px;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.profile-img {
+    width: 200px;
+}
+.about {
+    width: 20%;
+    margin: auto;
+    line-height: 2;
+}
+
+.Specialist {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.dk {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+/* .web-description {
+    clear: left;
+}
+.grahics-description {
+    clear: right;
+} */
+.contact-message {
+    margin: 40px auto 60px;
+    /* width: 30%; */
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    background-color: #1db096;
+    color: #ffffff;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background-color: #2bc4ad;
+    text-decoration: none;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+a {
+    color: #11999e;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+a:hover {
+    color: #eaf6f6;
+}
+.copy-right {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+@media (max-width:900px) {
+    nav {
+        justify-content: space-between;
+        height: 65px;
+        padding: 0px 30px;
+    }
+    .logo img {
+        height: 35px;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        background-color: #ffffff;
+        border-bottom: 4px solid #1db096;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+    .menu li {
+        width: 80%;
+    }
+    nav .menu li a {
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 25px;
+        border: 1px solid rgba(38,38,38,0.03);
+    }
+    nav .menu-icon {
+        cursor: pointer;
+        float: right;
+        padding: 28px 60px;
+        position: relative;
+        user-select: none;
+    }
+    nav .menu-icon .nav-icon {
+        background-color: #333333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition:  background 0.2s ease-out;
+        width: 18px;
+    }
+    nav .menu-icon .nav-icon:before,
+    nav .menu-icon .nav-icon:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all ease-out 0.2s;
+        width: 100%;
+    }
+    nav .menu-icon .nav-icon:before {
+        top: 5px;
+    }
+    nav .menu-icon .nav-icon:after {
+        top: -5px;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon {
+        background: transparent;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:before {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    nav .menu-btn:checked ~ .menu-icon .nav-icon:after {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    nav .menu-btn {
+        display: none;
+    }
+    nav .menu-btn:checked ~ .menu  {
+        display: block;
+    }
+    /* .top-container {
+        background-color: #E4F9F9;
+        position: relative;
+        margin-bottom: 10px;
+        padding-top: 100px;
+    } */
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    .top-cloud {
+        width: 150px;
+    }
+    .bottom-cloud {
+        width: 150px;
+    }
+    .mountain {
+        width: 500px;
+    }
+}
+@media(max-width:720px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    .profile-img {
+        width: 150px;
+    }
+    .top-cloud {
+        width: 100px;
+    }
+    .bottom-cloud {
+        width: 100px;
+    }
+    .mountain {
+        width: 300px;
+    }
+    .about {
+        font-size: 0.9rem;
+    }
+    .contact-message {
+        width: 30%;
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:530px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 0.9rem;
+    }
+    .profile-img {
+        width: 100px;
+    }
+    .top-cloud {
+        width: 100px;
+        display: none;
+    }
+    .bottom-cloud {
+        width: 100px;
+    }
+    .mountain {
+        width: 300px;
+    }
+    .about {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+    .contact-message {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+@media screen and (min-width: 900px){
+    #menu-btn{
+        visibility: hidden;
+    }
+}
+
+
+@font-face{
+    font-family: "SyneMono";
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    src: url("../webfont-code/SyneMono-Regular.ttf") format("truetype");
+}
