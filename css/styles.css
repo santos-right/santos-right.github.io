@@ -346,7 +346,8 @@ a:hover {
         width: 90%;
     }
     h1 {
-        padding: 0 5px 0 5px;
+        padding: 0 10px 0 10px;
+        font-size: 1rem;
     }
     .pro {
         padding: 0 10px 0 10px;
@@ -359,6 +360,7 @@ a:hover {
     }
     .footer-link {
         display: inline;
+        font-size: 00.9rem;
     }
 }
 
