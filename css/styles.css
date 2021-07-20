@@ -61,6 +61,7 @@ hr {
 }
 .logo img {
     height: 50px;
+    padding: 30px;
 }
 .nav-anchor:hover {
     color: #ffffff;
@@ -142,12 +143,12 @@ hr {
     background-color: #66bfbf;
     padding: 50px 0 20px;
 }
-.a {
+a {
     color: #11999e;
     text-decoration: none;
     margin: 10px 20px;
 }
-.a:hover {
+a:hover {
     color: #eaf6f6;
 }
 .copy-right {
