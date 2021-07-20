@@ -142,12 +142,12 @@ hr {
     background-color: #66bfbf;
     padding: 50px 0 20px;
 }
-.footer-link {
+.a {
     color: #11999e;
     text-decoration: none;
     margin: 10px 20px;
 }
-.footer-link:hover {
+.a:hover {
     color: #eaf6f6;
 }
 .copy-right {
