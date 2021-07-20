@@ -349,18 +349,24 @@ a:hover {
 @media(max-width:430px){
     .about {
         padding: 0 10px 0 10px;
+        width: 90%;
     }
     .contact-message {
         padding: 0 10px 0 10px;
+        width: 90%;
     }
     h1 {
         padding: 0 10px 0 10px;
+        width: 90%;
     }
     .pro {
         padding: 0 10px 0 10px;
+        width: 90%;
     }
     .copy-right {
         padding: 0 10px 0 10px;
+        width: 90%;
+        font-size: 0.9rem;
     }
 }
 
