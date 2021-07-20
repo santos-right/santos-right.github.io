@@ -346,6 +346,23 @@ a:hover {
         padding: 0 10px 0 10px;
     }
 }
+@media(max-width:430px){
+    .about {
+        padding: 0 10px 0 10px;
+    }
+    .contact-message {
+        padding: 0 10px 0 10px;
+    }
+    h1 {
+        padding: 0 10px 0 10px;
+    }
+    .pro {
+        padding: 0 10px 0 10px;
+    }
+    .copy-right {
+        padding: 0 10px 0 10px;
+    }
+}
 
 
 @font-face{
