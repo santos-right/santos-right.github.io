@@ -347,11 +347,12 @@ a:hover {
     }
     h1 {
         padding: 0 10px 0 10px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .pro {
         padding: 0 10px 0 10px;
         width: 90%;
+        font-size: 0.7;
     }
     .copy-right {
         padding: 0 10px 0 10px;
@@ -360,7 +361,7 @@ a:hover {
     }
     .footer-link {
         display: inline;
-        font-size: 00.9rem;
+        font-size: 0.9rem;
     }
 }
 
