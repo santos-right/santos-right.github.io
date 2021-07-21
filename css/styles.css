@@ -347,9 +347,9 @@ a:hover {
     }
     h1 {
         padding: 0 10px 0 10px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
-    .nav-anchor {
+    nav ul li a {
         margin-right: 50px;
     }
     .pro {
