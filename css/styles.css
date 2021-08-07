@@ -193,6 +193,9 @@ a:hover {
         height: 65px;
         padding: 0px 30px;
     }
+    .nav-anchor {
+        text-align: center;
+    }
     .logo img {
         height: 35px;
     }
