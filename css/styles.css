@@ -59,6 +59,32 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
+.typing {
+    margin-left: 10px;
+    position: relative;
+}
+.typing::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 6px;
+    width: 1px;
+    height: 6%;
+    border-right: 2px solid #fff;
+    animation: blink 0.5s infinite ease;
+}
+.typed-cursor{
+    display: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 .logo img {
     height: 50px;
 }
